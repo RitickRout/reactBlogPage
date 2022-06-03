@@ -1,0 +1,31 @@
+.containerHeading{
+  display: flex;
+
+}
+.containerHeading a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.side-Container{
+  display: flex;
+  flex-direction: column;
+}
+.mainArticle1 img{
+  max-width: 70vw;
+  margin-right: 5px;
+}
+.mainArticle2 img {
+  margin-bottom: 5px;
+  max-width: 27vw;
+  height: 99%;
+}
+.mainArticle1Text ,.mainArticle2Text{
+  position: relative;
+  bottom: 15vh;
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+.mainArticle2Heading{
+  font-size: 2vw;
+}

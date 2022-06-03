@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+.navbar-nav{
+width: 90%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.nav-item{
+  padding-left: 20px;
+}
+
+.ArticlesContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.ArticlesOneContainer {
+  /* width: 70%; */
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.topicHeader {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  border-bottom: 2px solid orange;
+  margin-bottom: 2rem;
+}
+
+.topPlusAd {
+  flex: 0.3;
+  width: 100%;
+  height: 100%;
+}
+.heading{
+  position: relative;
+  left:0;
+}
+.ArticlesOneContainer hr {
+  width: 100%;
+}
+
+.latestOneArticle {
+  display: flex;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
+  gap: 2rem;
+}
+.latestOneArticle img {
+  width: 20vw;
+  height: 31.3vh;
+  border-radius: 10px;
+}
+
+.LatestOneText {
+  text-align: left;
+}
+.loadContainer {
+  display: flex;
+  width: fit-content;
+  gap: 0.6rem;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.pageAd {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+@media all and (max-width: 420px) {
+  .ArticlesContainer {
+    flex-direction: column;
+  }
+  .ArticlesContainer {
+    padding: 0 1rem;
+  }
+  .topicHeader {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    border-bottom: 2px solid orange;
+    margin-bottom: 2rem;
+  }
+  .topicHeader h1 {
+    margin-bottom: 0;
+  }
+  .ArticlesOneContainer hr {
+    display: none;
+  }
+  .pageAd {
+    display: none;
+  }
+  .latestOneArticle {
+    gap: 1rem;
+  }
+}
+
+.homeContent{
+  margin-left: 30px;
+}
+
+.Template-Link{
+  padding-bottom: 30px;
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+
+.desc-smallTemplate{
+  width: 50%;
+}
+p{
+  font-size: small;
+}
+
+.Date-templateSmall{
+  position:relative;
+  left: 0;
+}
+.card .card-body {
+  padding: var(--spacer-y) var(--spacer-x);
+}
+/* .block{
+  padding-top: 5vh;
+  display: block;
+ 
+} */
+.Parent-Box-SmallTemplate{
+  margin-left: 12vw;
+  display: flex;
+  justify-content: space-between;
+}
+.Ad-Component{
+  width: 28vw;
+  height: 86vh;
+  border: 1px solid grey;
+}
+.card {
+   --bs-card-spacer-y: 1rem; 
+   --bs-card-spacer-x: 1rem; 
+   --bs-card-title-spacer-y: 0.5rem;
+   --bs-card-border-width: 0px;
+}
+.parentFlexBoxCol{
+  display: flex;
+  flex-direction: column;
+}
+.small{
+  flex-direction:row;
+  justify-content: space-between;
+}
+.ExtraSmall-com{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+.info{
+  position: relative;
+  bottom: 16vh;
+  color: whitesmoke;
+}
+.ImgLess-Com{
+  display: flex;
+
+}
+.border{
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+Button{
+  border: none;
+  background-color: none;
+}
+hr{
+  margin: 30px;
+  width: 50%;
+ border: 2px solid rgb(237, 27, 27);
+ border-radius: 2px;
+  color: red;
+}
+.upper-Box{
+  display: flex;
+  margin-left: 20vw;
+}
+.upper-box-right{
+  margin-top: 7vh;
+  display:flex;
+  padding-bottom: 20vh;
+ width: 15%;
+  justify-content:space-around;
+  margin-left: 25vw;
+}
+.pad-top{
+  margin-top: 11vh;
+}
+.author-icon{
+  width: .1vw;
+  height: .1vh;
+}
+.des{
+  width: 40%;
+}
+.BottomComp{
+  display: flex;
+  flex-direction:row;
+}
+
+.left{
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+}
+h1{
+  font-weight: bolder;
+}
+.rotate{
+ transform: rotate(-90deg);
+}
